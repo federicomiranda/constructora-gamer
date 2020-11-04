@@ -1,7 +1,17 @@
 import '../styles/globals.css'
+import Header from '../components/Header'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const App = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Header />
+      <Component {...pageProps} />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
+export default App;
