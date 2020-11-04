@@ -31,6 +31,10 @@
   flex-wrap: wrap;
 }
 
+.contacto_label {
+  display: none;
+}
+
 .contacto_input {
   width: 48%;
   margin-bottom: 2rem;

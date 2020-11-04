@@ -37,7 +37,9 @@ const Contact = () => {
         <p className={styles.contacto_text}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
 
         <form className={styles.contacto_form} onSubmit={sendEmail}>
+          <label className={styles.contacto_label} htmlFor="nombre">Nombre:</label>
           <input 
+            id="nombre"
             className={styles.contacto_input} 
             type="text" 
             name="nombre" 
@@ -45,7 +47,9 @@ const Contact = () => {
             onChange={(e) => setNombre(e.target.value)}   
           />
 
+          <label className={styles.contacto_label} htmlFor="apellido">Apellido:</label>
           <input 
+            id="apellido"
             className={styles.contacto_input} 
             type="text" 
             name="apellido" 
@@ -53,7 +57,9 @@ const Contact = () => {
             onChange={(e) => setApellido(e.target.value)} 
           />
 
+          <label className={styles.contacto_label} htmlFor="tel">Teléfono:</label>
           <input 
+            id="tel"
             className={styles.contacto_input} 
             type="tel" 
             name="tel" 
@@ -61,7 +67,9 @@ const Contact = () => {
             onChange={(e) => setTelefono(e.target.value)} 
           />
 
+          <label className={styles.contacto_label} htmlFor="email">Email:</label>
           <input 
+            id="email"
             className={styles.contacto_input} 
             type="email" 
             name="email" 
@@ -69,7 +77,9 @@ const Contact = () => {
             onChange={(e) => setEmail(e.target.value)} 
           />
 
+          <label className={styles.contacto_label} htmlFor="consulta">Consulta:</label>
           <textarea 
+            id="consulta"
             className={styles.contacto_textarea} 
             name="consulta" 
             cols="30" 
