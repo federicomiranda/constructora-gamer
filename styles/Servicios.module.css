@@ -1,0 +1,30 @@
+.hero_image {
+  width: 100% !important;
+}
+
+.content {
+  padding: 6rem 0 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.column {
+  width: 600px;
+  margin-left: 3rem;
+}
+
+.title {
+  width: 400px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  color: #353434;
+}
+
+.text {
+  color: #353434;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}

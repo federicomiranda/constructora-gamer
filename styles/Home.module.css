@@ -13,10 +13,7 @@
   justify-content: center;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+.heroContainer {
   position: absolute;
   display: flex;
   justify-content: flex-end;
@@ -66,12 +63,6 @@
   padding: 6rem 0;
 }
 
-.myv_container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
 .myv_article {
   text-align: center;
   color: #353434;
@@ -103,9 +94,6 @@
 }
 
 .servicios_container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
