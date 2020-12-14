@@ -18,7 +18,7 @@ const Equipos = () => {
             <section className={`container ${styles.equipos}`}>
                 <h2 className={styles.title}>Equipos</h2>
 
-                <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eum? Cupiditate eius laudantium libero esse commodi rem repellat ea. Id quis illo aut sequi dolore repellat provident maiores expedita recusandae?</p>
+                <p className={styles.text}>Nuestra flota de equipos y maquinarias se compone tanto por retroexcavadoras, retropalas, motoniveladoras, compactadores, minipalas, etc., como así también por dragas, camiones, acoplados, vehículos y herramientas de avanzada.</p>
 
                 <ul className={styles.grid}>
                     <li className={styles.item1}>

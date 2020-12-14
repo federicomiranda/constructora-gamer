@@ -30,3 +30,18 @@
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .clientes {
+    padding: 3rem 0;
+  }
+  .text {
+    width: 100%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gridItem > img {
+    width: 100%;
+  }
+}

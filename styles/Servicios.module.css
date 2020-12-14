@@ -28,3 +28,12 @@
   margin-bottom: 2rem;
   line-height: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+}

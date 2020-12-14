@@ -26,3 +26,14 @@
 .footer_a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .footer_container {
+    flex-direction: column-reverse;
+  }
+  .footer_ul {
+    text-align: center;
+    columns: 2;
+    margin-bottom: 3rem;
+  }
+}

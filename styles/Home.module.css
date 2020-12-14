@@ -139,3 +139,33 @@
 .servicios_link:hover {
   background: #353434;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 100%;
+  }
+  .title {
+    display: none;
+  }
+  .text {
+    display: none;
+  }
+  .myv {
+    padding: 3rem 0;
+  }
+  .myv_article_text {
+    width: 100%;
+  }
+  .servicios {
+    padding: 3rem 0;
+  }
+  .servicios_container {
+    flex-direction: column;
+  }
+  .servicios_article {
+    width: 100%;
+  }
+  .servicios_article:not(:last-of-type) {
+    margin-bottom: 3rem;
+  }
+}
